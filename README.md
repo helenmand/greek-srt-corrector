@@ -57,6 +57,8 @@ ollama pull ilsp/meltemi-instruct-v1.5
 streamlit run srt_corrector.py
 ```
 
+---
+
 ### ⚙️ Why Meltemi?
 
 The application suggests using `ilsp/meltemi-instruct-v1.5` model because it offers a balance of performance and accuracy for Greek-specific tasks.
@@ -64,10 +66,11 @@ The application suggests using `ilsp/meltemi-instruct-v1.5` model because it off
 While larger, more general-purpose models like `gemma3:12b` may have a higher overall quality rating, the Meltemi model is:
 
 * **Lightweight:** At 7 billion parameters, it requires significantly less VRAM, making the app more accessible.
-* **Fast:** Optimized with a specialized Greek tokenizer, it provides faster inference for the specific task of subtitle correction.
 * **Highly Effective:** Its training data is tailored for the Greek language, ensuring high-quality, task-specific corrections. **Additionally, the application's use of a user-provided context significantly improves the model's performance by tailoring its corrections to the specific subject matter of the text.**
 
 You are free to change the model from the app's sidebar to explore other options that might better suit your needs.
+
+---
 
 ### 📌 Example
 
