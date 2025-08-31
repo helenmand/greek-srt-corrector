@@ -35,7 +35,7 @@ A Streamlit-based web application for fast and accurate Greek subtitle correctio
 
 1️⃣ **Clone the repository**
 ```bash
-git clone [https://github.com/helenmand/greek-srt-corrector.git](https://github.com/helenmand/greek-srt-corrector.git)
+git clone https://github.com/helenmand/greek-srt-corrector.git
 cd greek-srt-corrector
 ```
 2️⃣ **Install dependencies**
